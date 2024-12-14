@@ -1,13 +1,4 @@
-// Initialize Firebase
-// const firebaseConfig = {
-//     apiKey: "AIzaSyCeKQOD-GrJOIos8m-J-mrXHqwg1WyPT-g",
-//     authDomain: "cru-nacos-vote.firebaseapp.com",
-//     projectId: "cru-nacos-vote",
-//     storageBucket: "cru-nacos-vote.appspot.com",
-//     messagingSenderId: "771005751339",
-//     appId: "1:771005751339:web:dcb783f1e35f7d65b8ca6e",
-//     measurementId: "G-MXTZ1LFZ1T"
-// };
+
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
